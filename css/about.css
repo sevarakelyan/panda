@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.li_zoos a:active {
+    color: #F9804B;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header li:hover {
+    cursor: pointer;
+}
+
+.header li:active {
+    color: #F9804B;
+}
+
+.header nav {
+    /* position: fixed; */
+    background: #151515;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    padding: 0;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    width: 1160px;
+}
+
+.header li {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 15px 24px;
+}
+
+.logo_nav {
+    position: relative;
+    width: 82px;
+    height: 52px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.logo_nav h4 {
+    color: #fff;
+}
+
+.logo_nav img {
+    position: absolute;
+    width: 7.03px;
+    height: 20.98px;
+    left: 16.5px;
+    top: 20px;
+}
+
+.part1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.part1_width {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    max-width: 1600px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.part2_div2 {
+    width: 85.92592592592593%;
+    position: relative;
+    max-width: 1162px;
+}
+
+.part1_div li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #F9804B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 10px 0;
+}
+
+.part1_div li img {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 80%;
+}
+
+.part1_div1 {
+    background: #FEBDAB;
+    border-radius: 5px;
+    margin-top: 58px;
+    position: absolute;
+    width: 99px;
+    left: 30px;
+
+}
+
+.part1_div1 ul {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 16px 0;
+}
+
+.part1_div2 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+
+    color: #333B41;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+}
+
+.part2_width {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
+    margin-top: 80px;
+}
+
+.part2_main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.part2_center {
+    width: 76.5%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part2_center_img1 {
+    width: calc(100% / 4 - 15px);
+    position: relative;
+}
+
+.part2_center_img1 a {
+    position: absolute;
+    width: 33px;
+    height: 22px;
+    left: 20px;
+    top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-transform: uppercase;
+
+    color: #000000;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 1px 11px;
+}
+
+.part2_aside {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2_aside div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: #F9804B;
+    transition: all .2s 0;
+}
+
+.part2_aside img {
+    width: 40%;
+}
+
+.part2_aside1 div {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: -80px;
+}
+
+.part2_aside2 div {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: -80px;
+}
+
+.part2_aside div:hover {
+    background: #4B9200;
+    cursor: pointer;
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.part3_width {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
+    margin-top: 140px;
+}
+
+.part3_main {
+    width: 72.5%;
+}
+
+.part3_main_title h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+
+    /* Green */
+
+    color: #4B9200;
+}
